@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // or "ES2020"
+    "module": "CommonJS",              // Node.js default
+    "rootDir": "./src",                // All your TS code
+    "outDir": "./dist",                // Compiled JS output
+    "esModuleInterop": true,           // Fixes import issues with CommonJS packages
+    "strict": true,                    // Best practice
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",        // Helps resolve modules like express, mysql2
+    "types": ["node"]                  // Node typings
+  },
+  "include": ["src"],                  // Compile only these folders
+  "exclude": ["node_modules"]          // Don't compile these
+}
