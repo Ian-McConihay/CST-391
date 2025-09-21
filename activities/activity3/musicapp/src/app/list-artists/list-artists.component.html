@@ -1,0 +1,19 @@
+<!-- src/app/list-artists/list-artists.component.html -->
+<h2>Artists</h2>
+<ul class="list-group mb-3">
+  <li
+    *ngFor="let a of artists"
+    class="list-group-item d-flex justify-content-between align-items-center"
+    (click)="onSelectArtist(a)"
+    style="cursor:pointer"
+  >
+    {{ a.artist }}
+    <a class="btn btn-sm btn-primary" [routerLink]="['/list-albums']" [queryParams]="{ artist: a.artist }">
+      View Albums
+    </a>
+  </li>
+</ul>
+
+<div *ngIf="selectedArtist" class="alert alert-info">
+  Selected: {{ selectedArtist.artist }}
+</div>
