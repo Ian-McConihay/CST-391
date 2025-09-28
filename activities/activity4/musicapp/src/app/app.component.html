@@ -1,0 +1,46 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}
+  </h1>
+</div>
+
+<nav class="navbar navbar-light navbar-expand-md bg-light">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand" routerLink="/">My Music</a>
+
+    <!-- Toggler -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navcol-1"
+      aria-controls="navcol-1"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navcol-1">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.gcu.edu" target="_blank">GCU Home Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/create']">Create Album</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="displayArtistList()">Artist List</a>
+        </li>
+      </ul>
+
+      <!-- About button -->
+      <span class="navbar-text actions">
+        <button class="btn btn-outline-primary" (click)="displayVersion()">About</button>
+      </span>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

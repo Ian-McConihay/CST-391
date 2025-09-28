@@ -1,0 +1,22 @@
+<!-- src/app/display-album/display-album.component.html -->
+<div *ngIf="album; else notFound">
+  <div class="card">
+    <img [src]="album.image" class="card-img-top" [alt]="album.title" />
+    <div class="card-body">
+      <h3 class="card-title">{{ album.title }} — {{ album.artist }}</h3>
+      <p class="text-muted">{{ album.year }}</p>
+      <p class="card-text">{{ album.description }}</p>
+
+      <h5>Tracks</h5>
+      <ol>
+        <li *ngFor="let t of album.tracks">
+          {{ t.title }}
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<ng-template #notFound>
+  <div class="alert alert-warning">Album not found.</div>
+</ng-template>

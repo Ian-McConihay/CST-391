@@ -1,0 +1,28 @@
+<div class="container mt-4">
+  <h2>Devotion Entries</h2>
+  <a routerLink="/devotion/new" class="btn btn-primary mb-3">Add New Devotion</a>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Date</th>
+        <th>Created At</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let devotion of devotions">
+        <td>{{ devotion.title }}</td>
+        <td>{{ devotion.content }}</td>
+        <td>{{ devotion.date }}</td>
+        <td>{{ devotion.created_at || '—' }}</td>
+        <td>
+          <a class="btn btn-sm btn-warning me-2" [routerLink]="['/devotion', devotion.id]">Edit</a>
+          <button class="btn btn-sm btn-danger" (click)="delete(devotion.id!)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

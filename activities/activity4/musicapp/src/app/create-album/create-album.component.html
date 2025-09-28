@@ -1,0 +1,28 @@
+<!-- src/app/create-album/create-album.component.html -->
+<h2>Create Album</h2>
+<form (ngSubmit)="onSubmit()" #f="ngForm" class="row g-3">
+  <div class="col-md-6">
+    <label class="form-label">Title</label>
+    <input class="form-control" [(ngModel)]="model.title" name="title" required />
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Artist</label>
+    <input class="form-control" [(ngModel)]="model.artist" name="artist" required />
+  </div>
+  <div class="col-12">
+    <label class="form-label">Description</label>
+    <textarea class="form-control" [(ngModel)]="model.description" name="description"></textarea>
+  </div>
+  <div class="col-md-3">
+    <label class="form-label">Year</label>
+    <input type="number" class="form-control" [(ngModel)]="model.year" name="year" />
+  </div>
+  <div class="col-12">
+    <label class="form-label">Image URL</label>
+    <input class="form-control" [(ngModel)]="model.image" name="image" />
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Save</button>
+  </div>
+</form>

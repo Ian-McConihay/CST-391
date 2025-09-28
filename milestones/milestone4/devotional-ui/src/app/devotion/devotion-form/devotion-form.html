@@ -1,0 +1,22 @@
+<div class="container mt-4">
+  <h2>{{ isEditMode ? 'Edit' : 'New' }} Devotion</h2>
+<form (ngSubmit)="onSubmit()" #devotionForm="ngForm">
+  <div class="mb-3">
+    <label>Title</label>
+    <input [(ngModel)]="devotion.title" name="title" class="form-control" required />
+  </div>
+
+  <div class="mb-3">
+    <label>Content</label>
+    <textarea [(ngModel)]="devotion.content" name="content" class="form-control" rows="4" required></textarea>
+  </div>
+
+  <div class="mb-3">
+    <label>Date</label>
+    <input type="date" [(ngModel)]="devotion.date" name="date" class="form-control" required />
+  </div>
+
+  <button type="submit" class="btn btn-success">{{ isEditMode ? 'Update' : 'Create' }}</button>
+  <a routerLink="/devotion" class="btn btn-secondary ms-2">Cancel</a>
+</form>
+</div>
