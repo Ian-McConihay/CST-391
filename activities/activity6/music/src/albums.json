@@ -1,0 +1,38 @@
+[
+  {
+    "albumId": 1,
+    "title": "Abbey Road",
+    "artist": "The Beatles",
+    "description": "A 1969 album by the Beatles featuring 'Come Together' and 'Here Comes the Sun'.",
+    "year": "1969",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "tracks": [
+      { "trackId": 1, "number": 1, "title": "Come Together", "lyrics": "", "video": "" },
+      { "trackId": 2, "number": 2, "title": "Something", "lyrics": "", "video": "" }
+    ]
+  },
+  {
+    "albumId": 2,
+    "title": "Revolver",
+    "artist": "The Beatles",
+    "description": "1966 studio album widely regarded as revolutionary.",
+    "year": "1966",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg",
+    "tracks": [
+      { "trackId": 1, "number": 1, "title": "Taxman", "lyrics": "", "video": "" },
+      { "trackId": 2, "number": 2, "title": "Eleanor Rigby", "lyrics": "", "video": "" }
+    ]
+  },
+  {
+    "albumId": 3,
+    "title": "Kind of Blue",
+    "artist": "Miles Davis",
+    "description": "Iconic 1959 jazz album featuring modal improvisation.",
+    "year": "1959",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/MilesDavisKindofBlue.jpg",
+    "tracks": [
+      { "trackId": 1, "number": 1, "title": "So What", "lyrics": "", "video": "" },
+      { "trackId": 2, "number": 2, "title": "Freddie Freeloader", "lyrics": "", "video": "" }
+    ]
+  }
+]

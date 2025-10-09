@@ -1,0 +1,18 @@
+/* src/App.css */
+body {
+  background: #f8f9fa;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.album-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.album-grid .card {
+  width: 320px;
+}
