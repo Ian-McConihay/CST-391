@@ -10,14 +10,14 @@
 
 ## Summary
 
-In **Activity 6**, we built on our previous React Music App by introducing **external data sources**, **REST integration**, and **application routing**.  
+In **Activity 6**, I built on the previous React Music App by introducing **external data sources**, **REST integration**, and **application routing**.  
 This project showcased how to use React Hooks (`useState`, `useEffect`, `useMemo`) and React Router v6 for multi-page navigation and dynamic data handling.  
 
 The activity was divided into two parts:
 1. **Mini App #2 – Routing Application Demo**  
    Demonstrated secure routing, protected routes, and login handling using React Router.
 2. **Music Application – External Data and Routing**  
-   Enhanced the main React Music App to load albums from JSON and the backend API, with working routes for search, details, and add album.
+   Enhanced the main React Music App to load albums from JSON and the backend API, with working routes for search, details, and add album. My css is a little different and my version of React but its all of the same material. 
 
 ---
 

@@ -1,0 +1,33 @@
+/* src/App.css */
+
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.album-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start; /* or center if you prefer */
+  padding: 1rem;
+}
+
+.album-card {
+  width: 18rem;
+  margin: 10px;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.album-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
