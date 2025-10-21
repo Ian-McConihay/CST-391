@@ -11,6 +11,16 @@ JavaScript Web Application Development
 
 - **GitHub Presentation:** [Milestone 6 Presentation](https://github.com/Ian-McConihay/CST-391/blob/main/milestones/milestone6/milestone6-presentation.md)
 
+## Screencast Demo
+
+🎥 **Milestone 6 Screencast – Full Technical Walkthrough:**
+
+- **Part 1:** [Presentation](https://www.loom.com/share/0d21dbab69d14b72837f134b8b0bff5f?sid=fbc87f67-9df8-4750-8c21-d1a15d523dd3)
+- **Part 2:** [Presentation End/Start Walkthrough](https://www.loom.com/share/9ace4352eee3465d965e94682614efcd?sid=21d2053d-5739-4d5e-a60c-d57a1c47445f)
+- **Part 3:** [Walkthrough Final Summary](https://www.loom.com/share/1cade4da120a4a21b3f440b6d19a73f6?sid=4ffa30ae-6367-48a1-bffc-36164b00bb3f)
+
+---
+
 ## Overview
 
 Milestone 6 represents the culmination of the full-stack **Daily Devotional Tracker** project, bringing together a RESTful API backend, two complete frontend implementations (Angular and React), and a polished user experience. This final milestone focuses on demonstrating both technical proficiency and thoughtful design by:
@@ -44,16 +54,6 @@ Each component was developed to simulate real-world development conditions with 
 -  **.env and config isolation** are critical for real-world deployment preparation.
 -  **RESTful practices** streamline frontend/backend communication and scalability.
 -  **Christian worldview insights** remind us that accessibility is not only technical but moral: good UX is a reflection of serving others well.
-
----
-
-## Screencast Demo
-
-🎥 **Milestone 6 Screencast – Full Technical Walkthrough:**
-
-- **Part 1:** [Presentation](https://www.loom.com/share/0d21dbab69d14b72837f134b8b0bff5f?sid=fbc87f67-9df8-4750-8c21-d1a15d523dd3)
-- **Part 2:** [Presentation End/Start Walkthrough](https://www.loom.com/share/9ace4352eee3465d965e94682614efcd?sid=21d2053d-5739-4d5e-a60c-d57a1c47445f)
-- **Part 3:** [Walkthrough Final Summary](https://www.loom.com/share/1cade4da120a4a21b3f440b6d19a73f6?sid=4ffa30ae-6367-48a1-bffc-36164b00bb3f)
 
 ---
 
